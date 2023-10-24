@@ -1,0 +1,122 @@
+.header {
+    color: blue;
+    font-size: 25;
+    margin-bottom: 32px;
+
+}
+
+.paragraph {
+    font-size: 16px;
+    margin-bottom: 32px;
+
+}
+.button-container {
+    border-radius: 5px;
+}
+.profile {
+    background-image: url('../Images/homeview.png');
+    background-size: cover;
+    width: 300px;
+    height: 260px;
+    margin-left: 500px;
+    margin-top: -240px;
+    display: flex;
+  }
+
+  .statistics-container {
+    flex-direction: row;
+display: flex;
+width: 800px;
+border-radius: 5px;
+color: white;
+ }
+
+ .header-statistics {
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+ }
+
+.label-container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+.study-container {
+  flex-direction: row;
+  display: flex;
+  width: 800px;
+  border-radius: 5px;
+  color: white;
+
+}
+
+.label-container-study {
+  flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+  .share-market {
+    background-image: url('../Images/Group.png');
+    background-size: cover;
+    width: 420px;
+    height: 300px;
+  }
+
+  .study {
+    background-image: url('../Images/study.jpeg');
+    background-size: cover;
+    width: 4000px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+    
+  }
+  .starts {
+    display: flex;
+    margin-left: 40px;
+    flex-direction: row;
+  }
+  .text {
+    color: orange;
+    font-size: bold;
+  }
+
+  .text-students {
+    color: black;
+    font-size: small;
+    width: 200px;
+
+  }
+ 
+  .paragraph-study {
+margin-left: 60px;
+margin-top: 20px;
+
+  }
+
+  .header-starts {
+  }
+
+  
+
+  .popular{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .end-header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .service {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }

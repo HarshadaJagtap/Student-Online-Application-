@@ -1,0 +1,22 @@
+/* SlantedDiv.css */
+.slanted-div {
+    position: relative;
+    background-color: #0074D9; /* Change the background color to your preference */
+    padding: 30px;
+    color: #fff; /* Text color */
+  }
+  
+  .slanted-div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 0 100px 100px 0;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+    transform: rotate(360deg); /* Adjust the rotation angle to achieve the desired slant */
+    width: 100px;
+    height: 100px;
+    background-color: transparent; /* Should match the page background color */
+  }
+  
